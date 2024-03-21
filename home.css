@@ -1,0 +1,89 @@
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family:Phudu, sans-serif;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        .nav-bar {
+            background-color: #f2f2f2;
+            overflow: hidden;
+        }
+
+        .nav-bar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .nav-bar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: #ffffff00;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .background-image {
+            background-image: url(imagens/DSC05033.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh; /* 100% da altura da viewport */
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        
+        .bg-image {
+            background-image: url(imagens/DSC05033.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .content {
+            text-align: center;
+        }
+
+        .brand img {
+            max-width: 500px; /* Ajuste o tamanho da imagem conforme necessário */
+        }
+        
+        .enter-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+            font-family: Sora, sans-serif;
+            cursor: pointer;
+        }
+        
